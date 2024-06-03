@@ -4,7 +4,7 @@
 read -p "TARGET URL: " target
 
 #check-directory
-if [ -d "$target"]; then
+if [ -d "$target" ]; then
 	echo "$target directory does exist, no need to create new."
 else
 	mkdir $target
